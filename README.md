@@ -23,7 +23,7 @@ cd nim-nexus
 python nim_nexus.py
 
 Author
-Arya Mahesh Bhiwapurkar, Muskan Dewangan
+Arya Mahesh Bhiwapurkar, Muskan Dewangan, Shubham Gupta, Subhali AR Otti
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
