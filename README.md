@@ -38,6 +38,6 @@ Welcome to **Nim Nexus**, a terminal-based Python game built as a part of a Game
 ### ▶️ How to Run
 
 ```bash
-git clone https://github.com/yourusername/nim-nexus-game.git
-cd nim-nexus-game
-python nim_game.py
+git clone https://github.com/AryaBhiwapurkar/Nim-Nexus.git
+cd Nim-Nexus
+python Nim_Nexus.py
