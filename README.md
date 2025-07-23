@@ -1,29 +1,43 @@
-# Nim-Nexus
-Game Theory course project, IVth semester. 
-Nim Nexus
-Nim Nexus is a two-player mathematical game where players take turns removing stones from heaps. The player who removes the last stone wins. This version of Nim Nexus allows you to play against an AI opponent.
+# 🧠 Nim Nexus - A Terminal-Based Strategy Game
 
-Rules
-At the beginning of the game, there are three heaps of stones with random numbers of stones in each heap.
-Players take turns choosing a heap and removing 1 to 5 stones from that heap.
-The game continues until all the heaps are empty.
-The player who removes the last stone wins the game.
-Usage
-Run the nim_nexus.py file.
-You can follow the on-screen instructions to make your moves.
-To remove stones from a heap, enter the heap index (1, 2, 3, ...) and the number of stones to remove.
-The game ends when all the heaps are empty. The winner (player or AI) will be displayed.
-Winning Strategy
-The winning strategy for Nim Nexus is to ensure that the XOR (exclusive OR) of the number of stones in each heap remains zero after every move.
-Getting Started
+Welcome to **Nim Nexus**, a terminal-based Python game built as a part of a Game Theory course project. This is a classic **two-player mathematical game of strategy**, where players take turns removing stones from heaps — and the one who takes the last stone wins.
 
-To start with Nim Nexus, clone this repository to your local machine and run the nim_nexus.py file.
-git clone https://github.com/ChillHard/nim-nexus.git
-cd nim-nexus
-python nim_nexus.py
+> 💡 Inspired by the well-known *Nim Game* used in AI/game theory research.
 
-Author
-Arya Mahesh Bhiwapurkar, Muskan Dewangan, Shubham Gupta, Subhali AR Otti
+---
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🎮 Game Rules
+
+- There are 3 heaps of stones (each initialized with a random number of stones).
+- On your turn, choose a heap and remove **1 to 5 stones**.
+- The AI opponent will do the same.
+- The player who removes the **last stone** wins.
+
+---
+
+## 🧠 Strategy Behind the Game
+
+- The **winning strategy** is based on the XOR of heap sizes.
+- If the XOR of all heap sizes is 0, the current player is in a losing position.
+- This version currently features a **random AI**. Future updates will include a **perfect AI** based on XOR strategy.
+
+---
+
+## 🛠 Tech Stack
+
+- Python 3
+- Terminal-based interface (no external dependencies)
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+- Python 3 installed
+
+### ▶️ How to Run
+
+```bash
+git clone https://github.com/yourusername/nim-nexus-game.git
+cd nim-nexus-game
+python nim_game.py
